@@ -13,6 +13,16 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * CUS 1151 – Advanced Data Structures
+Student Name: Darajah Harriott
+Assignment: HW2
+Instructor: Dr. Fazel Keshtkar
+
+HW2 is based on AVL Trees and Heap Trees
+	The project is divided into two main parts, which involves analyzing operations of data structures like balanced AVL Trees
+	and priority queues (Min/Max Heap Trees), and Part C, which requires building a Java application to process a large text file. 
+	The Java application will use built-in tools to clean, tokenize, count word frequencies, and analyze the data.
+ * 
  * Project2: A Java-based text processing system for word frequency analysis,
  * using built-in Java Collections for efficient data handling.
  *
@@ -190,7 +200,7 @@ public class Harriott_project2 {
 
     /**
      * Task 4: Performs additional analysis, calculating the unique word count
-     * and the average word length of the processed text.
+     * and the average word length of the processed text. -- AI assisted.
      *
      * @param wordFrequencies The map containing all word counts.
      * @param totalTokenCount The total count of all non-stopword tokens.
@@ -209,3 +219,4 @@ public class Harriott_project2 {
         System.out.printf("Average Word Length: %.4f characters\n", averageWordLength);
     }
 }
+
